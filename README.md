@@ -13,7 +13,7 @@ asynchronous_fifo_top.svh: The top-level wrapper that instantiates and connects 
 
 fifo_memory.svh: A dual-port RAM structure that stores the incoming data.
 
-wptr_handle.svh: Manages the write pointer, converts it to Gray code, and computes the full flag to prevent overflow.
+**wptr_handle.svh**: Manages the write pointer, converts it to Gray code, and computes the full flag to prevent overflow.
 
 rptr_handle.svh: Manages the read pointer, converts it to Gray code, and computes the empty flag to prevent reading garbage data.
 
