@@ -1,6 +1,6 @@
 Here is a README.md file description for your repository, incorporating the project details and a dedicated section for the regression testing script.
 
-Asynchronous FIFO in SystemVerilog
++Asynchronous FIFO in SystemVerilog
 Project Overview
 This repository contains the RTL implementation and verification environment for an Asynchronous FIFO (First-In-First-Out) designed in SystemVerilog. An asynchronous FIFO is crucial for safely transferring data across two different, unsynchronized clock domains (read and write) without data loss or metastability issues.
 
