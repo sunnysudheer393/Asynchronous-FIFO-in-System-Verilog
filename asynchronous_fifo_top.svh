@@ -5,7 +5,7 @@ module asynchronous_fifo_top #(parameter int DEPTH = 8, DATA_WIDTH = 8)(
     output logic [DATA_WIDTH-1:0] data_out,
     output full, empty
 );
-parameter WIDTH = $clog2(DATA_WIDTH);
+parameter WIDTH = $clog2(DEPTH);
 
 logic [WIDTH-1:0] g_rptr,g_wptr, g_rptr_sync, g_wptr_sync;
 logic [WIDTH-1:0] b_wptr,b_rptr;
