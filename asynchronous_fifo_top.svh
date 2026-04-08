@@ -15,6 +15,7 @@ flop_synchroniser #( .WIDTH(WIDTH)) w_flop (
     .clk(wclk), .rst_n(wrst_n), .data_in(g_rptr),
     .data_out(g_rptr_sync)
 );
+    
 flop_synchroniser #( .WIDTH(WIDTH)) r_flop (
     .clk(rclk), .rst_n(rrst_n), .data_in(g_wptr),
     .data_out(g_wptr_sync)
